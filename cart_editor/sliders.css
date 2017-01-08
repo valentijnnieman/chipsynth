@@ -1,0 +1,33 @@
+.outerBox {
+  display: block;
+}
+
+.oscillators{}
+
+.oscillator{
+  display: inline-block;
+  box-shadow: 1px 1px 1px 0px black;
+  background-color: rgba(169, 169, 169, 0.29);
+  padding: 14px;
+  margin: 4px;
+}
+
+.slider {
+  position: relative;
+  display: block;
+  border-radius: 100%;
+  width: 100%
+  background-color: cyan;
+}
+
+.soundBox {
+  display: inline-block;
+  padding: 40px 20px;
+  border-radius: 4px;
+  background-color: gray;
+  float: left;
+  color: white;
+  box-shadow: 1px 1px 0px 0px black;
+  text-shadow: -1px -1px black;
+  margin-right: 5px;
+}

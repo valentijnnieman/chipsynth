@@ -1,0 +1,2 @@
+- define gain, making it so volumes seem on one level and won't clip when sustain is altered
+        - ( sustain 's': 1.0 should not alter the final gain stage)

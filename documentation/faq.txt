@@ -1,0 +1,29 @@
+How-to-use ChipSynth:
+
+
+ChipSynth is a JavaScript framework for easily generating 8-bit sound effects. It is designed 
+around the Web Audio API. The framework offers presets that are ready to use, just type in Chip.Play(sound) and
+you're ready to go!
+
+Quick use guide:
+
+- Load a 'cartridge'(containing instrument presets):
+        Chip.Load(cartridge);
+- Play a sound from the cartridge:
+        Chip.Play(sound);
+
+
+List of cartridges:
+    'avalon'
+    'rockmen'
+    'jumpbros'
+
+
+List of sounds (same on all cartridges)
+    'jump'
+    'shoot'
+    'explode'
+    'coin'
+    'powerup'
+    'death'
+    'speech'

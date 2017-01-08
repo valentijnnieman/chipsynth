@@ -1,0 +1,23 @@
+{
+  "name": "chipsynth",
+  "version": "0.0.1",
+  "description": "A JavaScript library for adding 8 bit style sounds for your game.",
+  "main": "engine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chip",
+    "sound",
+    "design",
+    "game",
+    "synth"
+  ],
+  "author": "Valentijn Nieman",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-serve": "^0.1.6",
+    "underscore": "^1.8.3"
+  }
+}

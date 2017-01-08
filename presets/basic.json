@@ -1,0 +1,122 @@
+{
+    "jump": 
+    [
+        {
+            "type": "square",
+            "start": 300,
+            "gliss-end": 520,
+            "a": 0.01,
+            "d": 0,
+            "s": 0.5,
+            "r": 0.3
+        }
+    ],
+    
+    "shoot":
+    [
+        {
+            "type": "sawtooth",
+            "start": 330,
+            "gliss-end": 110,
+            "a": 0.001,
+            "d": 0.0,
+            "s": 0.5,
+            "r": 0.4           
+        },
+        {
+            "type": "square",
+            "start": 110,
+            "gliss-end": 50,
+            "a": 0.001,
+            "d": 0.0,
+            "s": 0.5,
+            "r": 0.1
+        }
+    ],
+
+    "explode":
+    [
+        {
+            "type": "triangle",
+            "start": 150,
+            "gliss-end" : 31,
+            "a": 0.0,
+            "d": 0.0,
+            "s": 0.5,
+            "r": 0.19
+        },
+        {
+            "type": "noise",
+            "start": 100,
+            "gliss-end": 500,
+            "a": 0.0,
+            "d": 0.0,
+            "s": 0.2,
+            "r": 0.5
+        },
+        {
+            "type": "noise",
+            "start": 0,
+            "gliss-end": 0,
+            "a": 0.0,
+            "d": 0.0,
+            "s": 0.5,
+            "r": 0.2
+        }
+    ],
+
+    "coin":
+    [
+        {
+            "type": "square",
+            "start": 440,
+            "gliss-end": 440,
+            "a": 0.0,
+            "d": 0.2,
+            "s": 0.5,
+            "r": 0.1,
+            "arp": 2,
+            "arp-end": 880
+        }
+    ],
+
+    "powerup":
+    [
+        {
+            "type": "sawtooth",
+            "start": 220,
+            "gliss-end": 220,
+            "a": 0.0,
+            "d": 0.2,
+            "s": 0.5,
+            "r": 0.2,
+            "arp": 4,
+            "arp-end": 880
+        },
+
+        {
+            "type": "triangle",
+            "start": 110,
+            "gliss-end": 550,
+            "a": 0.2,
+            "d": 0.2,
+            "s": 0.2,
+            "r": 0.4
+        }       
+    ],
+
+    "death":
+    [
+        {
+            "type": "square",
+            "start": 440,
+            "a": 0.0,
+            "d": 0.2,
+            "s": 0.5,
+            "r": 0.1,
+            "arp": 16,
+            "arp-end": 180
+        }
+    ]   
+
+}
