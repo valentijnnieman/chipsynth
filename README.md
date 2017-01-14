@@ -1,2 +1,27 @@
 # chipsynth
-simple 8-bit synth for sound effects in javascript
+simple 8-bit synth for sound effects in javascript, with an editor written in React.
+
+```html
+<head>
+    <script src='node_modules/underscore/underscore-min.js'></script>
+    <script src='src/chip.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type='text/babel' src='cart_editor/sliders.js'></script>
+    <link rel="stylesheet" type="text/css" href="cart_editor/sliders.css">
+</head>
+
+<body>
+    <input type="range" />
+    <button onclick='Chip.Play("jump")'>Jump</button>
+    <button onclick='Chip.Play("shoot")'>Shoot</button>
+    <button onclick='Chip.Play("explode")'>Explode</button>
+    <button onclick='Chip.Play("coin")'>Coin</button>
+    <button onclick='Chip.Play("powerup")'>PowerUp</button>
+    <button onclick='Chip.Play("death")'>Death</button>
+    <div id='editor'>
+    </div>
+</body>
+```
