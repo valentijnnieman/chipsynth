@@ -1,7 +1,6 @@
 # chipsynth
 simple 8-bit synth for sound effects in javascript, with an editor written in React.
 
-```html
 <head>
     <script src='node_modules/underscore/underscore-min.js'></script>
     <script src='src/chip.js'></script>
@@ -24,4 +23,3 @@ simple 8-bit synth for sound effects in javascript, with an editor written in Re
     <div id='editor'>
     </div>
 </body>
-```
