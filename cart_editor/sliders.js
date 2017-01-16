@@ -19,6 +19,7 @@ class Slider extends React.Component {
     return(
       <div className='outerBox'>
         <span>{this.props.name}</span>
+        <input className='numberBox' type="number" value={this.state.value}/>
         <input className='slider' type="range" min="0" max={this.props.maxValue} value={this.state.value} onChange={this.handleSliding} step={this.props.stepSize}/>
       </div>
     );

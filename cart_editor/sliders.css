@@ -16,8 +16,13 @@
   position: relative;
   display: block;
   border-radius: 100%;
-  width: 100%
+  width: 100%;
   background-color: cyan;
+}
+
+.numberBox {
+  width: 30%;
+  float: right;
 }
 
 .soundBox {
@@ -29,5 +34,5 @@
   color: white;
   box-shadow: 1px 1px 0px 0px black;
   text-shadow: -1px -1px black;
-  margin-right: 5px;
+  margin: 16px;
 }
